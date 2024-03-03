@@ -1,9 +1,18 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  color: white;
 }
 
 header {
@@ -15,6 +24,7 @@ header {
 h1 {
   display: inline-block;
   margin-right: 65%;
+  color: white; /* Change text color to white */
 }
 
 .routes {
@@ -26,8 +36,9 @@ li {
   border-radius: 50px;
   background-color: rgb(115, 200, 253);
   margin-right: 10px;
+  color: white; 
 }
-/* this is a placeholder for img slideshow */
+
 .puppies {
   width: 100%;
   height: 500px;
@@ -57,4 +68,33 @@ li {
   color: rgb(0, 150, 243);
   cursor: pointer;
   background-color: white;
+}
+
+
+h1 {
+  margin-bottom: 20px; /* Add margin to separate the header from the cards */
+  color: black; /* Set text color to black */
+  text-align: center; /* Center the text horizontally */
+  margin-top: 0; /* Remove default top margin */
+}
+/* Add this CSS to style each dog's information */
+.dog-card {
+  background: linear-gradient(rgb(87, 165, 214), rgb(0, 150, 243)); /* Blue gradient background */
+  border-radius: 25px;
+  font-weight: normal;
+  padding: 20px; /* Add padding for spacing */
+  margin-bottom: 20px; /* Add margin to separate each card */
+  width: 300px; /* Set a fixed width for each card */
+  margin-right: 20px; /* Add margin to create space between cards */
+}
+
+.dog-card:last-child {
+  margin-right: 0; /* Remove margin from the last card to prevent extra spacing */
+}
+
+/* Add this CSS to create a flex container for the cards */
+.dog-card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: center; /* Center align the cards horizontally */
 }
