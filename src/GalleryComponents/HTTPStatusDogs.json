@@ -1,0 +1,317 @@
+[
+    {
+        "image": "https://http.dog/100.jpg",
+        "statusCode": 100,
+        "description": "Continue"
+    },
+    {
+        "image": "https://http.dog/101.jpg",
+        "statusCode": 101,
+        "description": "Switching Protocols"
+    },
+    {
+        "image": "https://http.dog/102.jpg",
+        "statusCode": 102,
+        "description": "Processing"
+    },
+    {
+        "image": "https://http.dog/103.jpg",
+        "statusCode": 103,
+        "description": "Early Hints"
+    },
+    {
+        "image": "https://http.dog/200.jpg",
+        "statusCode": 200,
+        "description": "OK"
+    },
+    {
+        "image": "https://http.dog/201.jpg",
+        "statusCode": 201,
+        "description": "Created"
+    },
+    {
+        "image": "https://http.dog/202.jpg",
+        "statusCode": 202,
+        "description": "Accepted"
+    },
+    {
+        "image": "https://http.dog/203.jpg",
+        "statusCode": 203,
+        "description": "Non-Authoritative Information"
+    },
+    {
+        "image": "https://http.dog/204.jpg",
+        "statusCode": 204,
+        "description": "No Content"
+    },
+    {
+        "image": "https://http.dog/207.jpg",
+        "statusCode": 207,
+        "description": "Multi-Status"
+    },
+    {
+        "image": "https://http.dog/218.jpg",
+        "statusCode": 218,
+        "description": "This is fine"
+    },
+    {
+        "image": "https://http.dog/300.jpg",
+        "statusCode": 300,
+        "description": "Multiple Choices"
+    },
+    {
+        "image": "https://http.dog/301.jpg",
+        "statusCode": 301,
+        "description": "Moved Permanently"
+    },
+    {
+        "image": "https://http.dog/302.jpg",
+        "statusCode": 302,
+        "description": "Found"
+    },
+    {
+        "image": "https://http.dog/303.jpg",
+        "statusCode": 303,
+        "description": "See Other"
+    },
+    {
+        "image": "https://http.dog/304.jpg",
+        "statusCode": 304,
+        "description": "Not Modified"
+    },
+    {
+        "image": "https://http.dog/305.jpg",
+        "statusCode": 305,
+        "description": "Use Proxy"
+    },
+    {
+        "image": "https://http.dog/306.jpg",
+        "statusCode": 306,
+        "description": "Switch Proxy"
+    },
+    {
+        "image": "https://http.dog/307.jpg",
+        "statusCode": 307,
+        "description": "Temporary Redirect"
+    },
+    {
+        "image": "https://http.dog/400.jpg",
+        "statusCode": 400,
+        "description": "Bad Request"
+    },
+    {
+        "image": "https://http.dog/401.jpg",
+        "statusCode": 401,
+        "description": "Unauthorized"
+    },
+    {
+        "image": "https://http.dog/402.jpg",
+        "statusCode": 402,
+        "description": "Payment Required"
+    },
+    {
+        "image": "https://http.dog/403.jpg",
+        "statusCode": 403,
+        "description": "Forbidden"
+    },
+    {
+        "image": "https://http.dog/404.jpg",
+        "statusCode": 404,
+        "description": "Not Found"
+    },
+    {
+        "image": "https://http.dog/405.jpg",
+        "statusCode": 405,
+        "description": "Method Not Allowed"
+    },
+    {
+        "image": "https://http.dog/406.jpg",
+        "statusCode": 406,
+        "description": "Not Acceptable"
+    },
+    {
+        "image": "https://http.dog/407.jpg",
+        "statusCode": 407,
+        "description": "Proxy Authentication Required"
+    },
+    {
+        "image": "https://http.dog/408.jpg",
+        "statusCode": 408,
+        "description": "Request Timeout"
+    },
+    {
+        "image": "https://http.dog/409.jpg",
+        "statusCode": 409,
+        "description": "Conflict"
+    },
+    {
+        "image": "https://http.dog/410.jpg",
+        "statusCode": 410,
+        "description": "Gone"
+    },
+    {
+        "image": "https://http.dog/413.jpg",
+        "statusCode": 413,
+        "description": "Payload Too Large"
+    },
+    {
+        "image": "https://http.dog/415.jpg",
+        "statusCode": 415,
+        "description": "Unsupported Media Type"
+    },
+    {
+        "image": "https://http.dog/416.jpg",
+        "statusCode": 416,
+        "description": "Range Not Satisfiable"
+    },
+    {
+        "image": "https://http.dog/417.jpg",
+        "statusCode": 417,
+        "description": "Expectation Failed"
+    },
+    {
+        "image": "https://http.dog/418.jpg",
+        "statusCode": 418,
+        "description": "I'm a teapot"
+    },
+    {
+        "image": "https://http.dog/420.jpg",
+        "statusCode": 420,
+        "description": "Enhance Your Calm"
+    },
+    {
+        "image": "https://http.dog/421.jpg",
+        "statusCode": 421,
+        "description": "Misdirected Request"
+    },
+    {
+        "image": "https://http.dog/423.jpg",
+        "statusCode": 423,
+        "description": "Locked"
+    },
+    {
+        "image": "https://http.dog/424.jpg",
+        "statusCode": 424,
+        "description": "Failed Dependency"
+    },
+    {
+        "image": "https://http.dog/425.jpg",
+        "statusCode": 425,
+        "description": "Too Early"
+    },
+    {
+        "image": "https://http.dog/426.jpg",
+        "statusCode": 426,
+        "description": "Upgrade Required"
+    },
+    {
+        "image": "https://http.dog/429.jpg",
+        "statusCode": 429,
+        "description": "Too Many Requests"
+    },
+    {
+        "image": "https://http.dog/430.jpg",
+        "statusCode": 430,
+        "description": "Request Header Fields Too Large"
+    },
+    {
+        "image": "https://http.dog/444.jpg",
+        "statusCode": 444,
+        "description": "No Response"
+    },
+    {
+        "image": "https://http.dog/449.jpg",
+        "statusCode": 449,
+        "description": "Retry With"
+    },
+    {
+        "image": "https://http.dog/463.jpg",
+        "statusCode": 463,
+        "description": "Too many forwarded IP addresses"
+    },
+    {
+        "image": "https://http.dog/495.jpg",
+        "statusCode": 495,
+        "description": "SSL Certificate Error"
+    },
+    {
+        "image": "https://http.dog/497.jpg",
+        "statusCode": 497,
+        "description": "HTTP Request Sent to HTTPS Port"
+    },
+    {
+        "image": "https://http.dog/499.jpg",
+        "statusCode": 499,
+        "description": "Client Closed Request"
+    },
+    {
+        "image": "https://http.dog/500.jpg",
+        "statusCode": 500,
+        "description": "Internal Server Error"
+    },
+    {
+        "image": "https://http.dog/501.jpg",
+        "statusCode": 501,
+        "description": "Not Implemented"
+    },
+    {
+        "image": "https://http.dog/502.jpg",
+        "statusCode": 502,
+        "description": "Bad Gateway"
+    },
+    {
+        "image": "https://http.dog/503.jpg",
+        "statusCode": 503,
+        "description": "Service Unavailable"
+    },
+    {
+        "image": "https://http.dog/508.jpg",
+        "statusCode": 508,
+        "description": "Loop Detected"
+    },
+    {
+        "image": "https://http.dog/510.jpg",
+        "statusCode": 510,
+        "description": "Not Extended"
+    },
+    {
+        "image": "https://http.dog/511.jpg",
+        "statusCode": 511,
+        "description": "Network Authorization Required"
+    },
+    {
+        "image": "https://http.dog/521.jpg",
+        "statusCode": 521,
+        "description": "Web server is down"
+    },
+    {
+        "image": "https://http.dog/522.jpg",
+        "statusCode": 522,
+        "description": "Connection timed out"
+    },
+    {
+        "image": "https://http.dog/523.jpg",
+        "statusCode": 523,
+        "description": "Origin is unreachable"
+    },
+    {
+        "image": "https://http.dog/525.jpg",
+        "statusCode": 525,
+        "description": "SSL handshake failed"
+    },
+    {
+        "image": "https://http.dog/526.jpg",
+        "statusCode": 526,
+        "description": "Invalid SSL certificate"
+    },
+    {
+        "image": "https://http.dog/529.jpg",
+        "statusCode": 529,
+        "description": "The service is overloaded"
+    },
+    {
+        "image": "https://http.dog/530.jpg",
+        "statusCode": 530,
+        "description": "Site Frozen"
+    }
+]
