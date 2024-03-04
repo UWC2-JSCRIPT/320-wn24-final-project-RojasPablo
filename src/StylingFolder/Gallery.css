@@ -1,0 +1,29 @@
+/* Donna Quach, JavaScript 320B Winter 2024 */
+/* Team Final Project with Pablo Rojas and Kyle Lemons - PetFinder */
+
+.statusDogBox {
+    margin-top: 40px; 
+    background: linear-gradient(rgb(104, 192, 247), rgb(0, 150, 243));
+    border-radius: 15%;
+    width: 380px;
+}
+
+.statusDogImg {
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.statusDogCode, .statusDogDescription {
+    color: white; 
+    text-align: center; 
+}
+
+.statusDogsGallery {
+    width: 1000px; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+}
