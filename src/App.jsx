@@ -1,7 +1,9 @@
-import "./App.css";
+import "./StylingFolder/App.css";
+import "./StylingFolder/Adopt.css";
+import "./StylingFolder/Gallery.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-import AdoptPage from "./AdoptComponents/Adopt-Page.jsx";
+import AdoptPage from "./HomeComponents/Adopt-Page";
 import Gallery from "./Pages/Gallery";
 
 
