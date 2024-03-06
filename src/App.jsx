@@ -3,8 +3,9 @@ import "./StylingFolder/Adopt.css";
 import "./StylingFolder/Gallery.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-import Adopt from "./Pages/Adopt";
+import AdoptPage from "./HomeComponents/Adopt-Page";
 import Gallery from "./Pages/Gallery";
+
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/adopt" element={<Adopt />} />
+          <Route path="/adopt" element={<AdoptPage />} /> 
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </BrowserRouter>
