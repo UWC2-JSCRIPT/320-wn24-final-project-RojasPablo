@@ -1,9 +1,11 @@
 import AdoptNavBar from "../AdoptComponents/AdoptNavBar";
-import '../StylingFolder/Adopt-Page.css'
+import AdoptPage from "../AdoptComponents/AdoptPage.jsx";
+
 export default function Adopt() {
   return (
     <>
       <AdoptNavBar />
+      <AdoptPage />
     </>
   );
 }
