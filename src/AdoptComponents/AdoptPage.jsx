@@ -80,12 +80,6 @@ function AdoptPage() {
                 <div className="dog-name-container">
                   <h3 className="dog-name">{dog.name.split(" ")[0]}</h3>
                 </div>
-                <button
-                  className="details-button"
-                  onClick={() => toggleInfoVisibility(index)}
-                >
-                  {dogInfoVisible[index] ? "Hide Info" : "View More Info"}
-                </button>
                 <div
                   className={`dog-info ${
                     dogInfoVisible[index] ? "visible" : ""
@@ -113,6 +107,12 @@ function AdoptPage() {
                     </span>
                   </p>
                 </div>
+                <button
+                  className="details-button"
+                  onClick={() => toggleInfoVisibility(index)}
+                >
+                  {dogInfoVisible[index] ? "Hide Info" : "View More Info"}
+                </button>
               </div>
             </div>
           ))}
