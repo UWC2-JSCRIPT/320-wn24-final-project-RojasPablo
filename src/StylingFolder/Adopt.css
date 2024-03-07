@@ -1,0 +1,83 @@
+.dog-card {
+    background: linear-gradient(rgb(94, 190, 250), rgb(0, 150, 243));
+    border-radius: 25px;
+    font-weight: normal;
+    margin-top: 15px;
+    width: 300px;
+    max-height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dog-card:hover {
+    transform: scale(1.03);
+}
+
+.dog-card-container {
+    padding: auto;
+}
+
+.adopt-page {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: start;
+}
+
+.dog-pic {
+    object-fit: cover;
+    width: 95%;
+    height: 350px;
+    border-radius: 15px 15px 5px 5px;
+    overflow: hidden;
+    margin-top: 10px;
+    justify-items: center;
+}
+
+.dog-info {
+    display: none;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.dog-info.visible {
+    display: block;
+}
+
+.dog-name-container {
+    background-color: rgb(250, 250, 251);
+    border-radius: 15px;
+    width: 90%;
+    height: 25px;
+    margin: auto;
+    align-tracks: center;
+    padding: .25rem;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.dog-name {
+    margin-top: 0px;
+    color: rgb(0, 150, 243);
+}
+
+.details-button {
+    border-radius: 50px;
+    background-color: rgb(115, 200, 253);
+    margin-right: 10px;
+    color: white;
+    padding: .75rem;
+    border: 0;
+    width: 200px;
+    margin: 15px;
+}
+
+.details-button:hover {
+    color: rgb(0, 150, 243);
+    cursor: pointer;
+    background-color: white;
+}
+
+span {
+    font-weight: bolder;
+}

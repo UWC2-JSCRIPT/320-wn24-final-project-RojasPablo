@@ -48,7 +48,7 @@ li {
   object-fit: cover;
   width: 95%;
   height: 340px;
-  border-radius: 25px;
+  border-radius: 25px 25px 15px 15px;
   overflow: hidden;
   padding: 10px;
 }
@@ -70,6 +70,7 @@ li {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   justify-items: center;
+  align-items: start;
 }
 
 .dev-name {
