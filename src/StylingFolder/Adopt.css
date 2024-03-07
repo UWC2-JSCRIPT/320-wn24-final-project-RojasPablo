@@ -2,9 +2,8 @@
     background: linear-gradient(rgb(94, 190, 250), rgb(0, 150, 243));
     border-radius: 25px;
     font-weight: normal;
-    padding: 10px;
     margin-top: 15px;
-    width: 290px;
+    width: 300px;
     max-height: auto;
     transition: transform 0.2s ease-in-out;
 }
@@ -22,15 +21,17 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     justify-items: center;
+    align-items: start;
 }
 
 .dog-pic {
     object-fit: cover;
     width: 95%;
     height: 350px;
-    border-radius: 25px;
+    border-radius: 15px 15px 5px 5px;
     overflow: hidden;
-    padding: 10px;
+    margin-top: 10px;
+    justify-items: center;
 }
 
 .dog-info {
@@ -52,6 +53,7 @@
     align-tracks: center;
     padding: .25rem;
     overflow: hidden;
+    margin-top: 10px;
 }
 
 .dog-name {

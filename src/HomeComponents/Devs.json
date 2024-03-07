@@ -1,7 +1,7 @@
 [
     {
         "name": "· Donna ·",
-        "devType": "Implemented Gallery Component & Jest Tests",
+        "devType": "Implemented Gallery & Jest Tests",
         "image": "https://images.unsplash.com/photo-1629755590546-f95805384911?q=80&w=3569&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "funFacts": {
             "fact": "I saw Shaq leave Cheesecake Factory",
@@ -19,7 +19,7 @@
     },
     {
         "name": "· Pablo ·",
-        "devType": "Designed Landing Page, Routes, & Prop-Types",
+        "devType": "Designed Landing Page, Routes, & Deployment",
         "image": "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?q=80&w=2694&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "funFacts": {
             "fact": "Plays in a dodgeball league",
