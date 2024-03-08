@@ -3,7 +3,7 @@
     border-radius: 25px;
     font-weight: normal;
     margin-top: 15px;
-    width: 300px;
+    width: 305px;
     max-height: auto;
     transition: transform 0.2s ease-in-out;
 }
@@ -36,8 +36,10 @@
 
 .dog-info {
     display: none;
-    margin-left: 15px;
+    margin-left: 7px;
     text-align: left;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .dog-info.visible {
@@ -78,6 +80,11 @@
     background-color: white;
 }
 
-span {
+.span {
     font-weight: bolder;
+    background-color: rgb(1, 138, 223);
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 5px;
+    box-shadow: 1px 1px 2px rgb(16, 1, 235), -.1em -.1em 2px rgb(153, 188, 251);
 }
