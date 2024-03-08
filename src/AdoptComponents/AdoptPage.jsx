@@ -67,7 +67,7 @@ function AdoptPage() {
                     alt={`${dog.name} - Photo`}
                   />
                 ) : (
-                  <div className="dog-pic">
+                  <div>
                     <span>
                       <img
                         className="dog-pic"
@@ -86,24 +86,23 @@ function AdoptPage() {
                   }`}
                 >
                   <p>
-                    <span>Breed:</span> {dog.breeds.primary}
+                    <span className="span">Breed</span> {dog.breeds.primary}
                   </p>
                   <p>
-                    <span>Age:</span> {dog.age}
+                    <span className="span">Age</span> {dog.age}
                   </p>
                   <p>
-                    <span>Gender:</span> {dog.gender}
+                    <span className="span">Gender</span> {dog.gender}
                   </p>
                   <p>
-                    <span>Phone:</span> {dog.contact.phone}
+                    <span className="span">Phone</span> {dog.contact.phone}
                   </p>
                   <p>
-                    <span>Email:</span> {dog.contact.email}
+                    <span className="span">Email</span> {dog.contact.email}
                   </p>
                   <p>
-                    <span>
-                      {dog.contact.address.city}, <br />
-                      {dog.contact.address.state}
+                    <span className="span">
+                      {dog.contact.address.city}, {dog.contact.address.state}
                     </span>
                   </p>
                 </div>
