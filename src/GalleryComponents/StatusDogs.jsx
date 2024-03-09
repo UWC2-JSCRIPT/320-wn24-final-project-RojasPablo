@@ -1,6 +1,3 @@
-// Donna Quach, JavaScript 320B Winter 2024
-// Team Final Project with Pablo Rojas and Kyle Lemons - PetFinder
-
 import PropTypes from "prop-types";
 
 const StatusDogs = ({ image, statusCode, description }) => {
