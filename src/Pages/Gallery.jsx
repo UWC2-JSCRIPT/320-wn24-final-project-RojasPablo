@@ -1,6 +1,3 @@
-// Donna Quach, JavaScript 320B Winter 2024
-// Team Final Project with Pablo Rojas and Kyle Lemons - PetFinder 
-
 import React from "react";
 import GalleryNavBar from "../GalleryComponents/GalleryNavBar";
 import StatusDogs from "../GalleryComponents/StatusDogs";
