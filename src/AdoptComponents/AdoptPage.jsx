@@ -7,7 +7,7 @@ function AdoptPage() {
 
   const fetchData = async () => {
     try {
-      // Fetching access token
+      
       const tokenResponse = await fetch(
         "https://api.petfinder.com/v2/oauth2/token",
         {
@@ -25,7 +25,7 @@ function AdoptPage() {
 
       const tokenData = await tokenResponse.json();
 
-      // Fetching data using the access token
+      
       const response = await fetch("https://api.petfinder.com/v2/animals", {
         headers: {
           Authorization: `Bearer ${tokenData.access_token}`,
