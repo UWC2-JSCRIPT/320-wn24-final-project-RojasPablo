@@ -1,13 +1,56 @@
-export default function Slideshow() {
+import React, { useState } from "react";
+import "../StylingFolder/Carousel.css";
+import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+
+export const Slideshow = ({ data }) => {
+  const [slide, setSlide] = useState(0);
+
+  const nextSlide = () => {
+    setSlide(slide === data.length - 1 ? 0 : slide + 1);
+  };
+  const prevSlide = () => {
+    setSlide(slide === 0 ? data.length - 1 : slide - 1);
+  };
   return (
     <>
-      <div className="slideshow-container">
-        <img
-          className="puppies"
-          src="https://images.unsplash.com/photo-1444212477490-ca407925329e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="puppies"
-        />
+      <div className="page">
+        <div className="carousel">
+          <BsArrowLeftCircleFill
+            className="arrow arrow-left"
+            onClick={prevSlide}
+          />
+          {data.map((item, index) => {
+            return (
+              <img
+                src={item.src}
+                alt={item.alt}
+                description={item.description}
+                key={index}
+                className={slide === index ? "slide" : "slide slide-hidden"}
+              />
+            );
+          })}
+          <BsArrowRightCircleFill
+            className="arrow arrow-right"
+            onClick={nextSlide}
+          />
+          <span className="indicators">
+            {data.map((_, index) => {
+              return (
+                <button
+                  key={index}
+                  onClick={() => setSlide(index)}
+                  className={
+                    slide === index
+                      ? "indicator"
+                      : "indicator indicator-inactive"
+                  }
+                ></button>
+              );
+            })}
+          </span>
+        </div>
       </div>
     </>
   );
-}
+};

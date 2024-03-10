@@ -1,15 +1,16 @@
 import React from "react";
 import NavBar from "../HomeComponents/NavBar";
-import Slideshow from "../HomeComponents/Slideshow";
 import Developers from "../HomeComponents/Developers";
 import devs from "../HomeComponents/Devs.json";
 import Mission from "../HomeComponents/Mission";
+import { Slideshow } from "../HomeComponents/Slideshow";
+import { slides } from "../HomeComponents/SlideshowData.json";
 
 export default function Home() {
   return (
     <>
       <NavBar />
-      <Slideshow />
+      <Slideshow data={slides} />
       <Mission />
       <div className="team">
         {devs.map((dev, index) => (

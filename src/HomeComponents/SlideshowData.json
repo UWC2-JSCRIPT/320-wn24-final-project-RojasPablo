@@ -1,0 +1,29 @@
+{
+    "slides": [
+    {
+      "src": "https://images.unsplash.com/photo-1444212477490-ca407925329e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "puppies",
+      "description": "Bring joy into your life"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1534551767192-78b8dd45b51b?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "pawsUp",
+      "description": "Paws up for a new chance at life"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1510020553968-30f966e1ec9e?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "carRide",
+      "description": "A companion for your next adventure!"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1602067340370-bdcebe8d1930?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "beach",
+      "description": "Endless fun"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?q=80&w=3616&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "happyPup",
+      "description": "Adopt, don't shop."
+    }
+    ]
+}
